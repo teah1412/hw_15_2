@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Fontovi-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Moj CSS -->
+    <link rel="stylesheet" href="/static/css/project_hairdresser_style.css">
+
+    <title>Hairdresser Hans</title>
+  </head>
+
+
+  <body>
+       <!--Navigacija počinje-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="font-family: 'Courgette', cursive; font-size: 30px;">Hairdresser Hans</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#our-services">Our Services</a>
+                    </li>
+                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#make-an-appointment">Make an appointment</a>
+                    </li>
+                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#faq">FAQ</a>
+                    </li>
+                  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item" style="color: white; display: flex; justify-content: space-evenly; align-items: center; padding-right: 10px;">
+                      <span data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">
+                      About us
+                      </span>
+                    </li>
+
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="font-family:calibri;">
+                    <button class="btn btn-outline-light" type="submit" style="font-family:calibri;">Search</button>
+                  </form>
+                </div>
+            </div>
+        </nav>
+    <!--Navigacija završava-->
+
+<div class="container">
+
+  <div class="padded">
+
+    <!--Carousel počinje-->
+
+     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../static/img//slika09.jpg" class="d-block w-100" style="max-height: 700px; width: auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/img//slika01.jpg" class="d-block w-100" style="max-height: 700px; width: auto;">
+        </div>
+        <div class="carousel-item">
+          <img src="../static/img//slika07.jpg" class="d-block w-100" style="max-height: 700px; width: auto;">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+  </div>
+    <!--Carousel završava-->
+
+</div>
+
+       <h1 class="font1 break" id="our-services" style="text-align: center;">Our Services</h1>
+
+<div class="container">
+
+<!--Card počinje-->
+
+  <div class="row padded" style="padding: 50px 0px 0px;">
+    <div class="card col-sm-3">
+      <div class="card-body">
+        <h5 class="card-title" id="servcard">
+         <div>Styling </div>
+         <img src="../static/img//opcije2.png" style="height: 50px; width: auto; border-radius: 25%;">
+
+       </h5>
+      </div>
+      <img src="../static/img//styling01.jpg" class="card-img-bottom" alt="...">
+    </div>
+
+    <div class="card col-sm-3">
+      <div class="card-body">
+       <h5 class="card-title" id="servcard">
+         <div>Coloring </div>
+         <img src="../static/img//opcije4.png" style="height: 50px; width: auto; border-radius: 25%;">
+       </h5>
+      </div>
+      <img src="../static/img//coloring02.jpeg" class="card-img-bottom" alt="...">
+    </div>
+
+    <div class="card col-sm-3">
+      <div class="card-body">
+       <h5 class="card-title" id="servcard">
+         <div>Haircuts </div>
+         <img src="../static/img//opcije3.png" style="height: 50px; width: auto; border-radius: 25%;">
+       </h5>
+      </div>
+      <img src="../static/img//haircuts01.jpeg" class="card-img-bottom" alt="...">
+    </div>
+  </div>
+<!--Card završava-->
+
+</div>
+
+     <h1 class="font1 break" id="make-an-appointment" style="text-align: center;">Make an appointment</h1>
+
+<div class="container">
+
+<!--2 stupca-->
+
+    <div class="row">
+      <div class="two-column">
+
+    <!--Kontakt form počinje-->
+
+            <div class="left">
+
+              <div class="mb-3">
+                <input type="fname lname" class="form-control" id="exampleFormControlInput1" placeholder="First and Last Name">
+              </div>
+
+              <div class="mb-3">
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Phone number">
+              </div>
+
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Date">
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Other info (haircut wishes etc.)"></textarea>
+              </div>
+
+              <label>
+                <input type="checkbox">
+                <span class="checkmark">I agree that Hans is the best frisseur</span>
+              </label>
+
+              <div>
+                <button type="submit" class="btn btn-dark" style="margin-top: 20px;">Send</button>
+              </div>
+            </div>
+<!--Kontakt form završava--
+<!--Tablica počinje-->
+
+            <div class="right">
+              <table class="table" align="center">
+                <thead>
+                  <tr class="table-dark">
+                    <th scope="col">Day</th>
+                    <th scope="col">Working hours</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background-color:white;">
+                    <th scope="row">Monday</th>
+                    <td>8.00-16.00</td>
+                  </tr>
+                  <tr class="table-light">
+                    <th scope="row">Tuesday</th>
+                    <td>10.00-18.00</td>
+                  </tr>
+                <tr style="background-color:white;">
+                    <th scope="row">Wednesday</th>
+                    <td>8.00-16.00</td>
+                  </tr>
+                <tr class="table-light">
+                    <th scope="row">Thursday</th>
+                    <td>8.00-16.00</td>
+                  </tr>
+                <tr style="background-color:white;">
+                    <th scope="row">Friday</th>
+                    <td>12.00-20.00</td>
+                  </tr>
+                <tr class="table-light">
+                    <th scope="row">Saturday</th>
+                    <td>8.00-16.00</td>
+                  </tr>
+                <tr style="background-color:white;">
+                    <th scope="row">Sunday</th>
+                    <td>8.00-12.00</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p class="p-holidays">* We don't work on holidays</p>
+            </div>
+
+<!--^^Tablica završena-->
+
+      </div>
+<!--^^2 stupca završena-->
+
+    </div>
+</div>
+<!--^^row i  container završeni-->
+
+<h1 class="font1 break" id="faq" style="text-align: center;">FAQ (frequently asked questions)</h1>
+
+<div class="container">
+
+      <!--Accordion počinje-->
+    <div class="faq">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button bg-light collapsed type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Do you have gift certificates?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Gift certificates are available for purchase in the salon or over the phone. If you purchase a gift certificate
+              over the phone, we can either email it to your lucky recipient or simply keep it in our files. Elixir salon
+              gift certificates are not redeemable for cash or refundable.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button bg-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Can I bring my pet along?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Sure you can. We are very pet-friendly, and we even have a play are specifically designed for your best friend!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What awards did you receive so far?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              We are proud to say we have received more than one award for our excellent service!
+              <ul>
+                <li>Award1</li>
+                <li>Award2</li>
+                <li>Award3</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--Accordion završava-->
+
+</div>
+
+<!--Kraj stranice počinje-->
+
+<div class="end-site">
+
+  <div>
+    <h4>
+      Contact
+    </h4>
+    <p style="line-height: 30px;">
+      Friseur Hans GmbH
+      <br>Tax number: 324324234
+      <br>Friseurgasse 5, 1020 Wien
+      <br>Phone: 0668/345435346
+      <br>Email: friseus.hans@f-hans.com
+    </p>
+  </div>
+
+  <div>
+    <img src="../static/img//slika04.jpg" style="max-height:200px; max-width:auto; border-radius: 10%;">
+  </div>
+
+  <div>
+    <h4>
+      Navigation
+    </h4>
+    <p style="line-height: 35px;">
+      <a href="#our-services">Our services</a>
+      <br><a href="#make-an-appointment">Make an appointment</a>
+      <br><a href="#faq">FAQ</a>
+      <br>
+
+<!-- About us dio počinje -->
+<!-- Button trigger modal -->
+  <span data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;">
+    About us
+  </span>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel" style="color: black;">About us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div style="padding: 20px 10px;">
+            <p style="color: black;">
+          At Hans Hairsalon we are passionate about meeting the unique needs of our clients and creating a style that
+          highlights their natural beauty. We create a perfect style by listening to our clients' desires, whether
+          they are a business professional or someone who wants to sport the trendiest styles.
+            </p>
+            <p style="color: black;">
+          We pride ourselves in keeping up with our education and therefore, we always bring a fresh perspective
+          to our work. Or atmosphere is confortable and professional... a taste of Vienna and Austria.
+            </p>
+        </div>
+
+        <img src="../static/img//hans01.jpeg" style="height: 300px; width: auto;">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--About Us dio završen-->
+    </p>
+  </div>
+
+<!--Kraj stranice završen-->
+
+</div>
+
+    </div>
+
+
+
+   	<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+
+  </body>
+</html>

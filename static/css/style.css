@@ -1,0 +1,116 @@
+body {
+    background-image: url("../img/bg01.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Grandstander', cursive;
+    font-weight: 400;
+}
+
+
+.btn-outline-success {
+    border-color: #ff75cf;
+    color: #ff75cf;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #f3009e;
+    border-color: #f3009e;
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -180px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 200px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#home {
+    top: 200px;
+    background-color: #411441;
+}
+
+#about {
+    top: 260px;
+    background-color: #6f216f; /* Blue */
+}
+
+#portfolio {
+    top: 320px;
+    background-color: #f3009e; /* Red */
+}
+
+#contact {
+    top: 380px;
+    background-color: #ff75cf /* Light Black */
+}
+
+.hometext {
+    margin: 100px auto 100px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.card {
+    margin: 50px auto 50px;
+    padding: 20px;
+}
+
+.card a {
+    color: #ff75cf;
+}
+
+.card a:hover {
+    color: #f3009e;
+}
+
+.card-title {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ff75cf;
+    padding-bottom: 20px;
+}
+
+.btn-success {
+    border-color: #ff75cf;
+    color: #ff75cf;
+    background-color: black;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #f3009e;
+    border-color: #f3009e;
+}
+
+.btn-success:visited {
+    color: #fff;
+    background-color: #6f216f;
+    border-color: #6f216f;
+}
+
+.card-img-top {
+    opacity: 0.7
+}
+

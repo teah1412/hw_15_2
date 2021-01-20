@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: SeaShell;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    font-family: Cambria;
+    color: #a44f72;
+    background: Pink;
+}
+
+.header h1 {
+    font-size:50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: RosyBrown;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: SeaShell;
+    text-align: center;
+    padding: 14px;
+    font-family: Cambria;
+    width: 33.3%;
+}
+
+.topnav a:hover {
+  background-color: #a44f72;;
+  color: SeaShell;
+}
+
+.leftcolumn {
+    float: left;
+    width:75%;
+    background-color: SeaShell;
+
+}
+
+.rightcolumn {
+    float: left;
+    width: 20%;
+    background-color: SeaShell;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: White;
+    padding: 25px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right: 12px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #aaaaaa;
+    color: #663300;
+}
+
+a {
+    color: #cc0066;
+}
+
+.img1 {
+    border-radius: 100px;
+}
+
+.img2 {
+    border-radius: 25px;
+}

@@ -1,0 +1,130 @@
+* {
+    font-family: Arial;
+}
+
+.header {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.a1:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a1:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a1:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a1:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a2 {
+    color: blue;
+    text-decoration: none;
+}
+
+.a2:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.a3:link {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a3:visited {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a3:hover {
+  color: Grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.a3:active {
+  color: Red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.logo {
+    text-align: center;
+    margin: 150px auto 0px;
+}
+
+.after-logo {
+    text-align: center;
+}
+
+.button {
+  background-color: WhiteSmoke;
+  border: none;
+  color: Black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 10px 10px;
+  box-radius: 20%;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 1px 1px Silver;
+}
+
+.button:active {
+    border: blue;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: WhiteSmoke;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    right: 0px;
+    bottom: 0px;
+    left: -2px;
+    border: 1px solid Silver;
+    padding: 10px;
+    font-size: 14px;
+    color: Grey;
+}
+
+.footer-a1 {
+    float: left;
+    display: block;
+    margin-top: 5px;
+}
+
+.footer-a2 {
+    float: right;
+    display: block;
+}
+
+.a3 {
+    padding: 10px 10px 0px;
+}
+

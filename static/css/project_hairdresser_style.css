@@ -1,0 +1,162 @@
+body {
+    background-image: url(../img//bg04.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.container {
+    height: 100%;
+}
+
+.blank {
+    background-color: white;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.collapse {
+    font-size: 17px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.padded {
+    margin: 80px 0px;
+}
+
+.carousel {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.col-sm-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+    box-shadow: 5px 5px 10px #aaaaaa;
+}
+
+.card-body {
+    padding: 10px 30px 0px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-img-bottom {
+    height: 200px;
+    width: auto;
+}
+
+.font1 {
+    font-family: 'Nerko One', cursive;
+}
+
+.break {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+
+#servcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.two-column {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 100px 0px 50px;
+}
+
+.left {
+    justify-content: center;
+    min-width: 50%;
+    margin-bottom: 10px;
+}
+
+.right {
+    padding: 0px 80px;
+}
+
+.p-holidays {
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.table {
+    width: 400px;
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+    padding: 5px 30px;
+}
+
+.faq {
+    margin: 50px 80px;
+    min-height: 350px;
+}
+
+.accordion-item {
+    font-size: 18px;
+}
+
+.accordion-body {
+    font-size: 16px;
+    padding: 30px;
+    background-color: white;
+}
+
+.btn-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: #8e9196;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.end-site {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8e9196;
+}
+
+#end-site-btn {
+    display: inline-block;
+}
+
